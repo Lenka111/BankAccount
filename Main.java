@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         //create new object
         BankAccount bankAccount = new BankAccount(121212, "Elena Voinu", "999-888-777");
+        BankAccount bk1 = new BankAccount(11111, "My Name", "111-222-3333");
 
         bankAccount.setBalance(0);
         bankAccount.depositFunds(10);
