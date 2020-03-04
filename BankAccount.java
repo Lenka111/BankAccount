@@ -1,3 +1,4 @@
+//Elena Voinu
 public class BankAccount {
     //class fields
     private int accountNumber;
@@ -50,6 +51,7 @@ public class BankAccount {
     //method that allows the customer to withdraw funds
     public void withdrawFunds(int withdrawFunds){
 
+        // if present balance is less than the withdraw amount 
         if(balance < withdrawFunds){
             System.out.println("Withdraw $" + withdrawFunds);
             System.out.println("Can not complete transaction. Insufficient funds in the account");
