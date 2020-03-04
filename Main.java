@@ -1,5 +1,7 @@
+//Elena Voinu
 public class Main {
     public static void main(String[] args) {
+        //create new object
         BankAccount bankAccount = new BankAccount(121212, "Elena Voinu", "999-888-777");
 
         bankAccount.setBalance(0);
